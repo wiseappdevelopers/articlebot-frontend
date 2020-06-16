@@ -37,6 +37,10 @@ input{
 	border-radius: 5px;
 }
 
+input, select { 
+	font-size: 100%; 
+}
+
 button{
 	width: 30%;
 	padding: 10px;
