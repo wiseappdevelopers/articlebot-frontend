@@ -1,0 +1,73 @@
+html, body{
+    height:100vh;
+    overflow:hidden;
+}
+
+
+body{
+	background-color: green;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	height: 95%;
+	padding: 20px;
+}
+
+header{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 3fr 9fr;
+	/*background-color: red;*/
+	height: 20%;
+	margin: 20px;
+	text-align: center;
+}
+
+#logo img{
+	max-width: 100%;
+  	height: auto;
+}
+
+input{
+	width: 80%;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+
+button{
+	width: 30%;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+#information{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 4fr 4fr 4fr;
+	/*background-color: blue;*/
+	height: 45%;
+	margin: 20px;
+}
+
+.content{
+	border: dotted 1px;
+	border-radius: 10px;
+	overflow: auto;
+	background-color: white;
+	color: black;
+}
+
+#bot{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr;
+	/*background-color: pink;*/
+	height: 25%;
+	margin: 20px;
+}
