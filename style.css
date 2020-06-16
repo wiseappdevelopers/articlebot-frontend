@@ -8,7 +8,7 @@ body{
 	background-color: green;
 	padding: 0;
 	margin: 0;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .container{
@@ -77,6 +77,13 @@ button{
 	margin: 20px;
 }
 
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
 /*** iPhone and iOS Form Input Zoom Fixes ***/
 /* Fix Input Zoom on devices older than iPhone 5: */
 @media screen and (device-aspect-ratio: 2/3) {
@@ -84,7 +91,7 @@ button{
     input[type="datetime"], input[type="datetime-local"],
     input[type="date"], input[type="month"], input[type="time"],
     input[type="week"], input[type="number"], input[type="email"],
-    input[type="url"]{ font-size: 16px; }
+    input[type="url"]{ font-size: 10px; }
 }
 
 /* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
@@ -93,7 +100,7 @@ button{
     input[type="datetime"], input[type="datetime-local"],
     input[type="date"], input[type="month"], input[type="time"],
     input[type="week"], input[type="number"], input[type="email"],
-    input[type="url"]{ font-size: 16px; }
+    input[type="url"]{ font-size: 10px; }
 }
 
 /* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
@@ -102,7 +109,7 @@ button{
     input[type="datetime"], input[type="datetime-local"],
     input[type="date"], input[type="month"], input[type="time"],
     input[type="week"], input[type="number"], input[type="email"],
-    input[type="url"]{ font-size: 16px; }
+    input[type="url"]{ font-size: 10px; }
 }
 
 /* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
@@ -111,7 +118,7 @@ button{
     input[type="datetime"], input[type="datetime-local"],
     input[type="date"], input[type="month"], input[type="time"],
     input[type="week"], input[type="number"], input[type="email"],
-    input[type="url"]{ font-size: 16px; }
+    input[type="url"]{ font-size: 10px; }
 }
 
 @media (hover:none) {
@@ -120,6 +127,6 @@ select, textarea, input[type=”text”], input[type=”password”],
 input[type=”datetime”], input[type=”datetime-local”],
 input[type=”date”], input[type=”month”], input[type=”time”],
 input[type=”week”], input[type=”number”], input[type=”email”],
-input[type=”url”]{ font-size: 16px; }
+input[type=”url”]{ font-size: 10px; }
 /* end mobile styles */
 }
